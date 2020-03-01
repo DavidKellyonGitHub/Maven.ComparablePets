@@ -14,7 +14,6 @@ public class PetTest {
         String expected = "Alf";
         String actual = testPet.getName();
         Assert.assertTrue(expected.equals(actual));
-
     }
 
     @Test
